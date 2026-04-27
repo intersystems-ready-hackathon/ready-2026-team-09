@@ -1,0 +1,9 @@
+{
+	"servers": {
+		"Team 9 stub": {
+			"url": "http://localhost:52773/mcp/sample9",
+			"type": "http"
+		}
+	},
+	"inputs": []
+}
