@@ -1,0 +1,56 @@
+{
+  "%SQL.Statement": {
+    "introduced_in": "2013.1",
+    "available_in": ["2013.1", "2014.1", "2015.1", "2016.1", "2017.1", "2018.1", "2019.1", "2020.1", "2021.1", "2022.1", "2023.1", "2024.1", "2025.1", "2025.2", "2025.3", "2026.1", "2026.2"],
+    "purpose": "The standard way to prepare and execute dynamic SQL in IRIS / Cache. Replaces the older %ResultSet API.",
+    "source": "InterSystems class reference; Caché 2013.1 release notes."
+  },
+  "%Library.DynamicArray": {
+    "introduced_in": "2016.2",
+    "available_in": ["2016.2", "2017.1", "2018.1", "2019.1", "2020.1", "2021.1", "2022.1", "2023.1", "2024.1", "2025.1", "2025.2", "2025.3", "2026.1", "2026.2"],
+    "purpose": "Native JSON array type. Pairs with %Library.DynamicObject for ergonomic JSON construction and parsing.",
+    "source": "InterSystems Caché 2016.2 release notes (JSON support)."
+  },
+  "%Library.DynamicObject": {
+    "introduced_in": "2016.2",
+    "available_in": ["2016.2", "2017.1", "2018.1", "2019.1", "2020.1", "2021.1", "2022.1", "2023.1", "2024.1", "2025.1", "2025.2", "2025.3", "2026.1", "2026.2"],
+    "purpose": "Native JSON object type. Use with %Set, %Get, %ToJSON, %FromJSON for dynamic JSON manipulation.",
+    "source": "InterSystems Caché 2016.2 release notes."
+  },
+  "%CSP.Documatic": {
+    "introduced_in": "2007.1",
+    "available_in": ["2007.1", "2010.1", "2013.1", "2016.1", "2018.1", "2020.1", "2022.1", "2023.1", "2024.1", "2025.1", "2025.2", "2025.3", "2026.1", "2026.2"],
+    "purpose": "Web-based class reference browser. Reachable at /csp/documatic/ to inspect any class.",
+    "source": "InterSystems documentation portal."
+  },
+  "%Stream.GlobalCharacter": {
+    "introduced_in": "2007.1",
+    "available_in": ["2007.1", "2010.1", "2013.1", "2016.1", "2018.1", "2020.1", "2022.1", "2023.1", "2024.1", "2025.1", "2025.2", "2025.3", "2026.1", "2026.2"],
+    "purpose": "Globals-backed character stream. Standard storage for large text fields.",
+    "source": "InterSystems class reference."
+  },
+  "%Net.HttpRequest": {
+    "introduced_in": "2007.1",
+    "available_in": ["2007.1", "2010.1", "2013.1", "2016.1", "2018.1", "2020.1", "2022.1", "2023.1", "2024.1", "2025.1", "2025.2", "2025.3", "2026.1", "2026.2"],
+    "purpose": "Outbound HTTP client used across IRIS interop and ad-hoc API calls.",
+    "source": "InterSystems class reference."
+  },
+  "%SYS.Python": {
+    "introduced_in": "2021.2",
+    "available_in": ["2021.2", "2022.1", "2023.1", "2024.1", "2025.1", "2025.2", "2025.3", "2026.1", "2026.2"],
+    "purpose": "Embedded Python bridge — call Python from ObjectScript and vice versa.",
+    "source": "IRIS 2021.2 release notes (Embedded Python preview)."
+  },
+  "%Embedding.Interface": {
+    "introduced_in": "2024.1",
+    "available_in": ["2024.1", "2025.1", "2025.2", "2025.3", "2026.1", "2026.2"],
+    "purpose": "Vector embedding interface — feeds the new VECTOR data type for semantic search / RAG workloads.",
+    "source": "IRIS 2024.1 release notes (vector search GA)."
+  },
+  "%Wallet": {
+    "introduced_in": null,
+    "available_in": [],
+    "purpose": "No class named %Wallet ships in standard IRIS / IRIS for Health distributions. It may be a custom or third-party class.",
+    "source": "Confirmed absent from %Dictionary.ClassDefinition in stock IRIS for Health 2026.2."
+  }
+}
